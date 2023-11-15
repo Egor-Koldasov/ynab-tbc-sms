@@ -1,0 +1,19 @@
+{
+  "name": "ynab-parse-sms",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "author": "Egor Koldasov",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "@fast-csv/parse": "^4.3.6",
+    "dayjs": "^1.11.10"
+  }
+}
